@@ -11,49 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ongoing PhD degree (Uppsala University), 2018-current.
+* Engineer In Computer Science (Télécom Nancy), 2014-2017.
+* BTEC Higher National Diploma (Lycée Condorcet), 2012-2014.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Internship at the Broad Institute of MIT and Harvard, 2022.
+* Parental leave, 2021.
+* PhD Student at Uppsala University, 2018-current.
+* R&D engineering internship (6 weeks, ThyssenKrupp Budapest), 2016.
+* Engineer in Embedded Systems (ThyssenKrupp Presta France), 2014-2017.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Machine Learning
+  * Deep Learning
+  * Computer Vision
+* Math
+  * Statistics
+  * Optimization
+  * Gaussian Processes
+  * Information Theory
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[See here]({{base_path}}/teaching)
+
