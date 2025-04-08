@@ -3,6 +3,17 @@
  ******************************************************************************/
 
 // Typography
+body {
+  font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+}
+
+strong {
+  font-weight: 700;
+}
 
 p,
 h1,
@@ -229,7 +240,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 
   a {
     color: inherit;
@@ -554,7 +565,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
