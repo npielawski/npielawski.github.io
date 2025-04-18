@@ -44,11 +44,7 @@
       "startDate": "2018",
       "endDate": "2023",
       "summary": "I developped methods for multimodal image registration using deep learning. I also contributed to the development of TissUUmaps, a tool for interactive visualization and exploration of large-scale spatial omics data.",
-      "highlights": [
-        "Deep learning",
-        "Interactive visualization",
-        "Biological data analysis"
-      ]
+      "highlights": ["Deep learning", "Interactive visualization", "Biological data analysis"]
     },
     {
       "name": "ThyssenKrupp Budapest",
@@ -95,10 +91,8 @@
       "endDate": "2014"
     }
   ],
-  "awards": [
-  ],
-  "certificates": [
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
       "name": "Hallucination Detection in LLMs: Fast and Memory-Efficient Finetuned Models",
@@ -141,23 +135,13 @@
       "name": "Computer Science",
       "level": "Master",
       "icon": "fa-solid fa-location-dot",
-      "keywords": [
-        "Deep Learning",
-        "Machine Learning",
-        "Computer Vision",
-        "Large Language Models"
-      ]
+      "keywords": ["Deep Learning", "Machine Learning", "Computer Vision", "Large Language Models"]
     },
     {
       "name": "Mathematics",
       "level": "Master",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Bayesian statistics",
-        "Optimization",
-        "Gaussian Processes",
-        "Information Theory"
-      ]
+      "keywords": ["Bayesian statistics", "Optimization", "Gaussian Processes", "Information Theory"]
     }
   ],
   "languages": [

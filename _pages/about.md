@@ -29,7 +29,6 @@ latest_publications:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new publications items
   limit: 3 # leave blank to include all the publications in the `_publications` folder
-
 ---
 
 Hi there! I’m a researcher working at the intersection of AI and healthcare, with a soft
