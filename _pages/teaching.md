@@ -17,7 +17,7 @@ nav_order: 6
 
 - Large Language Models and Societal Consequences of Artificial Intelligence (CD, Teacher)
 - **thesis:** [Hallucination Detection in LLMs: Using Bayesian Neural Network Ensembling](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-535921)
-  - [Led to a publication with poster and oral presentations at the NLDL 2025 conference](http://localhost:8080/publications/#hallucination%20detection)
+  - [Led to a publication with poster and oral presentations at the NLDL 2025 conference](/publications/#hallucination%20detection)
 - **thesis:** [3D-body maps generated from Symptom Descriptions](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-533725)
 
 ## Year 2022
