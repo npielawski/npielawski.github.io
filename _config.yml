@@ -69,6 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
+umami_analytics: 3cf2fb4f-4927-4494-afc1-68851eb74408 # your Umami analytics site ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
@@ -84,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: A blog about AI and math # blog_name will be displayed in your blog page
-blog_description: Some intuition I gathered over the years
+blog_name: Intuition-first tutorials on AI, math, and stats.
+blog_description: Things I wish I knew when I started out.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -253,8 +254,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["math", "programming", "statistics", "plotting"] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -373,6 +374,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
+enable_umami_analytics: true # enables Umami analytics (https://umami.is/)
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
