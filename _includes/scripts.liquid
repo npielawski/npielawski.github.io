@@ -225,9 +225,9 @@
 
 {% if site.enable_umami_analytics %}
   <!-- Umami Analytics -->
-  {% capture umami_script_exists %}{% file_exists assets/js/umami.js %}{% endcapture %}
-  {% if hook_exists == 'true' %}
-    <script defer src="{{ '/assets/js/umami.js' | relative_url | bust_file_cache }}" data-website-id="{{ site.umami_analytics }}"></script>
+  {% capture umami_script_exists %}{% file_exists assets/js/script.js %}{% endcapture %}
+  {% if umami_script_exists == 'true' %}
+    <script defer src="{{ '/assets/js/script.js' | relative_url }}" data-website-id="{{ site.umami_analytics }}"></script>
   {% else %}
     <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ site.umami_analytics }}"></script>
   {% endif %}
