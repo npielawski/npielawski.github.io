@@ -86,6 +86,8 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Download Umami script.js 📜
+        run: curl -sSL https://cloud.umami.is/script.js -o ./assets/js/umami.js
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
